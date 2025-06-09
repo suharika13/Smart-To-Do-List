@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #007acc;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+li.completed {
+  color: green;
+  text-decoration: line-through;
+}
+
+li.missed-incomplete {
+  color: red;
+}
+
+.deadline {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.delete-btn {
+  color: red;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
